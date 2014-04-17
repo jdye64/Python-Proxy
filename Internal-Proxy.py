@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # This is a simple port-forward / proxy, written using only the default python
 # library.
 
