@@ -1,9 +1,9 @@
 #!/bin/sh
 
 echo 'Installing Python Internal Network Proxy'
-cp ./Internal-Proxy.py /usr/local/bin/.
 mkdir /usr/local/bin/python-proxy
 chmod 755 /usr/local/bin/python-proxy
+cp ./Internal-Proxy.py /usr/local/bin/python-proxy/.
 chmod 755 /usr/local/bin/python-proxy/Internal-Proxy.py
 
 # Move the init script to /etc/init.d
